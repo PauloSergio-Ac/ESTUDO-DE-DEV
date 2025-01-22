@@ -1,0 +1,61 @@
+<!-- Videos em HTML-->
+
+<video src="Local-do-video.formato"
+controls
+controlsList="nodownload"
+autoplay
+muted>
+</video>
+  Outra opção:
+<video controls>
+    <source src="./Local.mkv">
+    <source src="./Local.mp4">
+    <source src="./Local.mov">
+</video>
+
+<!-- A tag <video> em HTML é usada para incorporar vídeos em páginas da web. 
+ Aqui estão os principais atributos:
+
+Atributos Globais
+src: Define o caminho para o arquivo de vídeo. Pode ser omitido se a fonte for definida dentro de uma tag <source>.
+
+controls: Adiciona controles de reprodução (play, pause, volume, etc.) ao vídeo.
+
+autoplay: Faz o vídeo começar a ser reproduzido 
+
+automaticamente assim que estiver carregado. Geralmente usado em conjunto com o atributo muted para evitar problemas de reprodução automática.
+
+muted: Define que o vídeo será carregado sem som.
+
+loop: Faz com que o vídeo seja reproduzido em loop, reiniciando automaticamente ao terminar.
+
+poster: Define uma imagem que será exibida como "capa" do vídeo antes que ele comece a ser reproduzido.
+
+preload: Especifica como o navegador deve carregar o vídeo. Pode ser:
+auto: O vídeo será carregado por completo assim que possível.
+metadata: Apenas os metadados (duração, dimensões, etc.) serão carregados.
+none: O vídeo não será carregado automaticamente.
+width: Define a largura do vídeo (em pixels).
+height: Define a altura do vídeo (em pixels).
+Atributos de Controle e Interatividade
+playsinline: Permite que o vídeo seja reproduzido em linha em dispositivos móveis, ao invés de abrir em tela cheia.
+
+crossorigin: Indica como as solicitações entre origens devem ser tratadas. Valores possíveis:
+anonymous: Faz uma solicitação anônima.
+
+use-credentials: Inclui credenciais na solicitação.
+
+type: (usado em <source>) Especifica o tipo MIME do vídeo (ex.: video/mp4).
+
+default: (usado em <track>) Define o arquivo de legenda padrão.
+Exemplo de Uso-->
+<video width="640" height="360" controls autoplay muted loop poster="poster.jpg">
+    <source src="video.mp4" type="video/mp4">
+    <source src="video.ogg" type="video/ogg">
+    Seu navegador não suporta a tag de vídeo.
+  </video>
+<!--Nesse exemplo:
+
+O vídeo será reproduzido com controles.
+Ele começará automaticamente (autoplay), sem som (muted), e será reproduzido em loop.
+Uma imagem (poster.jpg) será exibida até que o vídeo comece.-->  

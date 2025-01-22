@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste iFrame</title>
+</head>
+
+<body>
+    <h1>Meu Site</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dignissimos, quam adipisci delectus harum
+        reiciendis temporibus consequatur quos voluptatem nesciunt quae pariatur sunt, voluptas perferendis. Voluptate
+        sed earum impedit explicabo.
+    </p>
+    <iframe width="560" height="315" style="border:1;"
+        src="https://www.youtube.com/embed/YeWvhBtbxnA?si=GOHTW9b0SP19qNed" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9346.615759550705!2d-67.8008991815269!3d-9.953263945065368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x917f8c969dc91741%3A0x8159b1aa0835a7c2!2sLot.%20Jardim%20Sao%20Francisco%2C%20Rio%20Branco%20-%20AC!5e0!3m2!1spt-BR!2sbr!4v1737515216118!5m2!1spt-BR!2sbr"
+        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</body>
+
+</html>
+
+<!--A tag <iframe> é usada em HTML para incorporar um documento HTML dentro de outro. Ela possui vários atributos que permitem configurar como o conteúdo é exibido. Aqui está uma lista dos principais atributos da tag <iframe> e suas funções:
+
+    Atributos Comuns
+    1- src
+    Especifica a URL do conteúdo que será exibido no iframe.
+    Exemplo: <iframe src="https://example.com"></iframe>
+    
+    2- width
+    Define a largura do iframe (pode ser em pixels ou porcentagem).
+    Exemplo: <iframe width="600"></iframe>
+    
+    3- height
+    Define a altura do iframe (pode ser em pixels ou porcentagem).
+    Exemplo: <iframe height="400"></iframe>
+    
+    4- name
+    Especifica um nome para o iframe, usado para referenciá-lo em scripts ou links.
+    Exemplo: <iframe name="meuIframe"></iframe>
+    
+    5- title
+    Fornece um título ao iframe, importante para acessibilidade.
+    Exemplo: <iframe title="Mapa da localização"></iframe>
+    
+    6- allow
+    Controla quais recursos podem ser usados dentro do iframe, como câmera, microfone, etc.
+    Exemplo: <iframe allow="camera; microphone"></iframe>
+    
+    7- sandbox
+    Restringe as ações que podem ser realizadas no iframe, como execução de scripts ou navegação.
+    Exemplos:
+    
+     * <iframe sandbox></iframe> (ativa todas as restrições).
+     * <iframe sandbox="allow-scripts"></iframe> (permite scripts, mas restringe outras ações).
+
+    8- allowfullscreen
+    Permite que o iframe entre no modo de tela cheia.
+    Exemplo: <iframe allowfullscreen></iframe>
+    
+    9- loading
+    Controla como o iframe é carregado para melhorar o desempenho.
+    Valores:
+    
+    * lazy: Carrega o iframe apenas quando está visível.
+    * eager: Carrega imediatamente.
+    Exemplo: <iframe loading="lazy"></iframe>
+    
+    10- referrerpolicy
+    Controla a política de envio do cabeçalho HTTP Referer.
+    Valores comuns: no-referrer, origin, strict-origin, etc.
+    Exemplo: <iframe referrerpolicy="no-referrer"></iframe>
+    
+    11- frameborder (descontinuado)
+    Define se o iframe terá borda ou não (valores: 0 ou 1).
+    Exemplo: <iframe frameborder="0"></iframe> (Prefira usar CSS para bordas)
+    
+    12- srcdoc
+    Permite especificar diretamente o conteúdo HTML que será renderizado no iframe, em vez de usar um URL.
+    Exemplo: -->
+<iframe srcdoc="<p>Conteúdo interno do iframe</p>"></iframe>
+<!--
+    13- csp
+    Define uma política de segurança de conteúdo (Content Security Policy) para o iframe.
+    Exemplo: <iframe csp="default-src 'self'"></iframe>
+
+    14- style
+    Permite adicionar estilos CSS diretamente ao iframe.
+    Exemplo: <iframe style="border: 1px solid black;"></iframe>
+
+-->
