@@ -1,0 +1,30 @@
+<!-- FORMS
+     -Capiturar dados de entrada
+     -Input=> Entrada
+     
+     Action=> define para qual url será enviado os dados, vazio envia para mesma url 
+     Method
+        - GET
+        - POST
+ -->
+
+<form action="" method="get" enctype="multipart/form-data">
+    <!--enctype="multipart/form-data" 
+    é obrigatorio usar quando inserido o:
+    input type = "file"-->
+    <h1>Digite seu Endereço: </h1>
+    <label>Rua:
+        <input type="text" name="rua" autocomplete="street-address" />
+    </label>
+
+    <label>Numero:
+        <input type="number" name="numero" autocomplete="cc-number" />
+    </label>
+
+    <label>Arquivo:
+        <input type="file" name="arquivo--"/>
+    </label>
+
+    <button type="reset">Reset</button>
+    <button type="submit">Eviar dados</button>
+</form>
