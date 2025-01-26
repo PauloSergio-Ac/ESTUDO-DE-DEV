@@ -1,14 +1,65 @@
-h1 {
-    color: blue;
-    background: black;
-}
 
-P {
-    color: blue;
-    font-size: 20px;
+#titulo {
+    color: #f00;
+    background: rgb(16, 201, 87);
+    font-size: 2em;
+    text-align: center;
 }
+#paragrafo {
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    text-align: center;
+}
+.botao {
+    background-color: #4CAF50; /* Cor de fundo */
+    color: rgb(235, 5, 5);             /* Cor do texto */
+    border: none;             /* Remover borda padrão */
+    padding: 10px 20px;       /* Espaçamento interno */
+    font-size: 16px;          /* Tamanho da fonte */
+    border-radius: 25px;      /* Bordas arredondadas */
+    cursor: pointer;          /* Cursor de clique */
+    transition: background-color 0.3s; /* Transição para efeito ao passar o mouse */
+  }
+.botao:hover {
+    background-color: #2c722f; /* Cor ao passar o mouse */
+  }
+.botao {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.774);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.76);
+  }
+  
 
-button {
-    background: orange;
-    border-color: darkgreen;
-}
+/* a 'class' é um seletor de grupo usa =>   ./
+   a 'id' é um seletor de id       usa =>    # 
+   
+   CSS é uma  folha de estilo em cascata
+   
+
+   CORES
+              RGB:
+        RED
+        GREEN
+        BLUE
+
+              HEXADECIMAL: #
+        
+        DECIMA (10) 0 1 2 3 4 5 6 7 8 9
+        HEXADECIMAL (16) 0 1 2 3 4 5 6 7 8 9 A B C D E F
+
+        UNIDADES DE MEDIDA
+        -> ABSOLUTAS
+           px - pixel. 
+
+        -> RELATIVAS
+              % - porcentagem: calcula o tamanho ralativo ao elemento pai.
+
+              em - é uma unidade relativa ao elemento pai.
+                1em = 16px
+
+              rem - é uma unidade relativa ao elemento raiz (root element) do documento.
+                1rem = 16px
+
+              vw - (viewport width) 1vw = 1% da largura da janela do navegador.
+              
+              vh - (viewport height) 1vh = 1% da altura da janela do navegador.
+   */
